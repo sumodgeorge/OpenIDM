@@ -554,7 +554,7 @@
         <dependency>
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
-            <version>1.9.4</version>
+            <version>1.11.0</version>
             <exclusions>
             	<exclusion>
             		<groupId>commons-logging</groupId>
@@ -755,7 +755,7 @@
                             <target>
                                 <unzip dest="${project.build.directory}/orientdb-community-${orientdb.studio.version}">
                                     <fileset dir="${project.build.directory}/orientdb-community-${orientdb.studio.version}\plugins">
-                                        <include name="studio-**.zip" />
+                                        <include name="studio-**.zip"/>
                                     </fileset>
                                 </unzip>
                             </target>
@@ -770,17 +770,17 @@
 
                         <configuration>
                             <target>
-                                <zip basedir="${basedir}/src/main/resources/samples/usecase/workflow" destfile="${project.build.directory}/bar-files/samples/usecase/workflow/certificationRoles.bar" includes="certificationRoles*" />
+                                <zip basedir="${basedir}/src/main/resources/samples/usecase/workflow" destfile="${project.build.directory}/bar-files/samples/usecase/workflow/certificationRoles.bar" includes="certificationRoles*"/>
 
-                                <zip basedir="${basedir}/src/main/resources/samples/usecase/workflow" destfile="${project.build.directory}/bar-files/samples/usecase/workflow/certificationEntitlements.bar" includes="certificationEntitlements*" />
+                                <zip basedir="${basedir}/src/main/resources/samples/usecase/workflow" destfile="${project.build.directory}/bar-files/samples/usecase/workflow/certificationEntitlements.bar" includes="certificationEntitlements*"/>
 
-                                <zip basedir="${basedir}/src/main/resources/samples/usecase/workflow" destfile="${project.build.directory}/bar-files/samples/usecase/workflow/manualMatch.bar" includes="manualMatch*" />
+                                <zip basedir="${basedir}/src/main/resources/samples/usecase/workflow" destfile="${project.build.directory}/bar-files/samples/usecase/workflow/manualMatch.bar" includes="manualMatch*"/>
 
-                                <zip basedir="${basedir}/src/main/resources/samples/usecase/workflow" destfile="${project.build.directory}/bar-files/samples/usecase/workflow/newUserCreate.bar" includes="newUserCreate.bpmn20.xml,nUC*.xhtml" />
+                                <zip basedir="${basedir}/src/main/resources/samples/usecase/workflow" destfile="${project.build.directory}/bar-files/samples/usecase/workflow/newUserCreate.bar" includes="newUserCreate.bpmn20.xml,nUC*.xhtml"/>
 
-                                <zip basedir="${basedir}/src/main/resources/samples/workflow/workflow" destfile="${project.build.directory}/bar-files/samples/workflow/workflow/chess.bar" includes="chess*" />
+                                <zip basedir="${basedir}/src/main/resources/samples/workflow/workflow" destfile="${project.build.directory}/bar-files/samples/workflow/workflow/chess.bar" includes="chess*"/>
 
-                                <zip basedir="${basedir}/src/main/resources/samples/workflow/workflow" destfile="${project.build.directory}/bar-files/samples/workflow/workflow/contractorOnboarding.bar" includes="contractor*" />
+                                <zip basedir="${basedir}/src/main/resources/samples/workflow/workflow" destfile="${project.build.directory}/bar-files/samples/workflow/workflow/contractorOnboarding.bar" includes="contractor*"/>
 
                             </target>
                         </configuration>
