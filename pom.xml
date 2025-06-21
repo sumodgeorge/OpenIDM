@@ -168,9 +168,9 @@
         <siteDistributionURL>scp://community.internal.forgerock.com/var/www/vhosts/openidm.forgerock.org/httpdocs</siteDistributionURL>
 
         <!-- OSGi bundles properties -->
-        <openidm.osgi.import.before.defaults />
-        <openidm.osgi.import.defaults />
-        <openidm.osgi.import.additional />
+        <openidm.osgi.import.before.defaults/>
+        <openidm.osgi.import.defaults/>
+        <openidm.osgi.import.additional/>
         <openidm.osgi.import>
             ${openidm.osgi.import.before.defaults},
             ${openidm.osgi.import.defaults},
@@ -180,11 +180,11 @@
 
         <!-- Apache Commons versions -->
         <apache.commons-codec.version>1.10</apache.commons-codec.version>
-        <apache.commons-fileupload.version>1.5</apache.commons-fileupload.version>
+        <apache.commons-fileupload.version>1.6.0</apache.commons-fileupload.version>
 
         <ant.contrib.version>1.0b3</ant.contrib.version>
 
-        <java.surefire.options />
+        <java.surefire.options/>
     </properties>
 
     <modules>
