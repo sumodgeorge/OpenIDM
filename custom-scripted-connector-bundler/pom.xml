@@ -62,7 +62,7 @@
             groovyjar*;version="[2.2,3)",
             groovyx.net.http*;resolution:=optional,
         </openicf.osgi.import.defaults>
-        <openicf.osgi.embed />
+        <openicf.osgi.embed/>
     </properties>
     <repositories>
     </repositories>
@@ -94,7 +94,7 @@
         <dependency>
             <groupId>com.github.jknack</groupId>
             <artifactId>handlebars</artifactId>
-            <version>2.0.0</version>
+            <version>4.1.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.mozilla</groupId>
