@@ -168,9 +168,9 @@
         <siteDistributionURL>scp://community.internal.forgerock.com/var/www/vhosts/openidm.forgerock.org/httpdocs</siteDistributionURL>
 
         <!-- OSGi bundles properties -->
-        <openidm.osgi.import.before.defaults />
-        <openidm.osgi.import.defaults />
-        <openidm.osgi.import.additional />
+        <openidm.osgi.import.before.defaults/>
+        <openidm.osgi.import.defaults/>
+        <openidm.osgi.import.additional/>
         <openidm.osgi.import>
             ${openidm.osgi.import.before.defaults},
             ${openidm.osgi.import.defaults},
@@ -184,7 +184,7 @@
 
         <ant.contrib.version>1.0b3</ant.contrib.version>
 
-        <java.surefire.options />
+        <java.surefire.options/>
     </properties>
 
     <modules>
@@ -427,7 +427,7 @@
             <dependency>
                 <groupId>org.bouncycastle</groupId>
                 <artifactId>bcmail-jdk18on</artifactId>
-                <version>1.78.1</version>
+                <version>1.79</version>
             </dependency>
             <!-- Commons -->
             <dependency>
