@@ -122,7 +122,7 @@
 
 
         <!-- Third party dependency versions -->
-        <orientdb.version>2.1.25</orientdb.version>
+        <orientdb.version>2.2.23</orientdb.version>
         <orientdb.studio.version>1.7.10</orientdb.studio.version>
         <javascript.maven.plugin.version>2.0.0-alpha-1</javascript.maven.plugin.version>
         <joda-time.version>2.9.4</joda-time.version>
@@ -168,9 +168,9 @@
         <siteDistributionURL>scp://community.internal.forgerock.com/var/www/vhosts/openidm.forgerock.org/httpdocs</siteDistributionURL>
 
         <!-- OSGi bundles properties -->
-        <openidm.osgi.import.before.defaults />
-        <openidm.osgi.import.defaults />
-        <openidm.osgi.import.additional />
+        <openidm.osgi.import.before.defaults/>
+        <openidm.osgi.import.defaults/>
+        <openidm.osgi.import.additional/>
         <openidm.osgi.import>
             ${openidm.osgi.import.before.defaults},
             ${openidm.osgi.import.defaults},
@@ -184,7 +184,7 @@
 
         <ant.contrib.version>1.0b3</ant.contrib.version>
 
-        <java.surefire.options />
+        <java.surefire.options/>
     </properties>
 
     <modules>
