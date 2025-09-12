@@ -62,7 +62,7 @@
             groovyjar*;version="[2.2,3)",
             groovyx.net.http*;resolution:=optional,
         </openicf.osgi.import.defaults>
-        <openicf.osgi.embed />
+        <openicf.osgi.embed/>
     </properties>
     <repositories>
     </repositories>
